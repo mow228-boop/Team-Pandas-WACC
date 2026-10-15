@@ -1,7 +1,7 @@
 item,value,source
-rf,0.04,"TODO (analyst): e.g. the 10-year Treasury yield on FRED (DGS10) as of a date you name"
-mrp,0.05,"TODO (analyst): market risk premium; say where it comes from and why"
-rd,0.055,"TODO (analyst): pre-tax cost of debt; e.g. yield on the firm's bonds or interest expense / total debt"
-tax,0.21,"TODO (analyst): tax rate; statutory or effective (income tax expense / pretax income)"
-w_e,0.70,"TODO (analyst): market cap / (market cap + total debt)"
-w_d,0.30,"TODO (analyst): total debt / (market cap + total debt)"
+rf,0.0524,"FLEX analysis as of 2026-10-13. US Treasury 10-year nominal par/CMT yield 5.24% on 2026-10-09, latest published close verified. https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+mrp,0.042,"Damodaran implied US equity risk premium 4.20% as of 2026-10-01, trailing 12 months with adjusted payout; premium over raw Treasury yield. https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm"
+rd,0.048,"Flex Q1 FY2027 10-Q, Note 6: weighted-average long-term-debt interest rate 4.8% at 2026-06-26. Historical borrowing-cost proxy, not current bond yield. Filed 2026-07-31. https://www.sec.gov/Archives/edgar/data/866374/000086637426000030/flex-20260626.htm"
+tax,0.23626373626373626,"Flex GAAP continuing-operations TTM effective tax through 2026-06-26: (263+92-54)/(1143+377-246)=301/1274=23.6264%, USD millions. Historical effective-tax proxy, not marginal statutory rate. FY2026 10-K and Q1 FY2027 10-Q. https://www.sec.gov/Archives/edgar/data/866374/000086637426000012/flex-20260331.htm ; https://www.sec.gov/Archives/edgar/data/866374/000086637426000030/flex-20260626.htm"
+w_e,0.8924534092389704,"E=USD43,308,805,140.72 = USD117.24 FLEX close on 2026-10-12 * 369,402,978 ordinary shares reported as of 2026-07-24. D=USD5,219,000,000 carrying debt at 2026-06-26; book debt used as market-debt proxy. E/(E+D). https://stockanalysis.com/stocks/flex/history/ ; https://www.sec.gov/Archives/edgar/data/866374/000086637426000030/flex-20260626.htm"
+w_d,0.10754659076102956,"E=USD43,308,805,140.72 = USD117.24 FLEX close on 2026-10-12 * 369,402,978 ordinary shares reported as of 2026-07-24. D=USD5,219,000,000 carrying debt at 2026-06-26; book debt used as market-debt proxy. D/(E+D). https://stockanalysis.com/stocks/flex/history/ ; https://www.sec.gov/Archives/edgar/data/866374/000086637426000030/flex-20260626.htm"
